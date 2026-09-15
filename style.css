@@ -11427,3 +11427,27 @@ img {
     }
 
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+    }
+
+    .navbar-inner {
+        min-height: 42px !important;
+    }
+
+    .nav-menu {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+
+
+
+.navbar {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
