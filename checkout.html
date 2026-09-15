@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechStore - Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            TechStore
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="cart.html" class="cart-btn">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="checkout-section">
+
+            <h1>Checkout</h1>
+
+            <div class="checkout-container">
+
+                <div class="checkout-form">
+
+                    <h2>Customer Information</h2>
+
+                    <div class="form-group">
+
+                        <label for="fullName">Full Name</label>
+
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            placeholder="Enter your full name"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+
+                    <div class="form-group">
+  
+                        <label for="email">Email Address</label>
+
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Enter your email"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="text"
+                            id="phone"
+                            placeholder="03XXXXXXXXX"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+
+                    <h2>Shipping Information</h2>
+
+                    <div class="form-group">
+
+                        <label for="address">Address</label>
+
+                        <input
+                            type="text"
+                            id="address"
+                            placeholder="Enter your address"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="city">City</label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Enter your city"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="postalCode">Postal Code</label>
+
+                        <input
+                            type="text"
+                            id="postalCode"
+                            placeholder="Enter postal code"
+                        >
+
+                        <small class="error-message"></small>
+
+                    </div>
+                </div>
+
+
+                <div class="order-summary">
+
+                    <h2>Order Summary</h2>
+
+                    <p>
+                        Total Items:
+                        <span class="total-items">0</span>
+                    </p>
+
+                    <h3>
+                        Total:
+                        $<span class="total-price">0</span>
+                    </h3>
+
+                    <button class="place-order-btn">
+                        Place Order
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

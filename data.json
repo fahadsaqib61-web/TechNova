@@ -1,0 +1,347 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Mobiles",
+      "description": "Latest Smartphones",
+      "icon": "📱"
+    },
+    {
+      "id": 2,
+      "name": "Laptops",
+      "description": "Powerful Computers",
+      "icon": "💻"
+    },
+    {
+      "id": 3,
+      "name": "Audio",
+      "description": "Headphones & Earbuds",
+      "icon": "🎧"
+    },
+    {
+      "id": 4,
+      "name": "Gaming",
+      "description": "Gaming Accessories",
+      "icon": "🎮"
+    },
+    {
+      "id": 5,
+      "name": "Cameras",
+      "description": "Capture Every Moment",
+      "icon": "📷"
+    },
+    {
+      "id": 6,
+      "name": "Wearables",
+      "description": "Smart Watches",
+      "icon": "⌚"
+    },
+    {
+      "id": 7,
+      "name": "Tablets",
+      "description": "Powerful Portable Devices",
+      "icon": "📱"
+    },
+    {
+      "id": 8,
+      "name": "Accessories",
+      "description": "Premium Tech & Lifestyle Accessories",
+      "icon": "✨"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Smartphone",
+      "category": "Mobiles",
+      "price": 999,
+      "oldPrice": 1199,
+      "discount": 17,
+      "rating": 5,
+      "image": "images/premium-smartphone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 16",
+      "category": "Mobiles",
+      "price": 899,
+      "rating": 5,
+      "image": "images/iphone16.jpg"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 17 Pro Max",
+      "category": "Mobiles",
+      "price": 1299,
+      "oldPrice": 1399,
+      "discount": 7,
+      "rating": 5,
+      "image": "images/iphone17pro-max.jpg"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 15 Pro Max",
+      "category": "Mobiles",
+      "price": 1099,
+      "rating": 5,
+      "image": "images/iphone15pro-max.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pro Performance Laptop",
+      "category": "Laptops",
+      "price": 1299,
+      "rating": 5,
+      "image": "images/pro-performance-laptop.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ultrabook Slim",
+      "category": "Laptops",
+      "price": 899,
+      "rating": 4,
+      "image": "images/ultrabook-slim.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Gaming Laptop",
+      "category": "Laptops",
+      "price": 1599,
+      "oldPrice": 1899,
+      "discount": 16,
+      "rating": 5,
+      "image": "images/gaming-laptop.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Budget Laptop",
+      "category": "Laptops",
+      "price": 599,
+      "rating": 3,
+      "image": "images/budget-laptop.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Wireless Headphones",
+      "category": "Audio",
+      "price": 199,
+      "oldPrice": 249,
+      "discount": 20,
+      "rating": 5,
+      "image": "images/wireless-headphones.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Earbuds",
+      "category": "Audio",
+      "price": 99,
+      "oldPrice": 129,
+      "discount": 23,
+      "rating": 4,
+      "image": "images/bluetooth-earbuds.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Studio Headphones",
+      "category": "Audio",
+      "price": 249,
+      "rating": 5,
+      "image": "images/studio-headphones.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Portable Speaker",
+      "category": "Audio",
+      "price": 79,
+      "rating": 4,
+      "image": "images/portable-speaker.jpg"
+    },
+
+    {
+      "id": 13,
+      "name": "Gaming Controller",
+      "category": "Gaming",
+      "price": 89,
+      "rating": 5,
+      "image": "images/gaming-controller.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Gaming Headset",
+      "category": "Gaming",
+      "price": 129,
+      "oldPrice": 169,
+      "discount": 24,
+      "rating": 4,
+      "image": "images/gaming-headset.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Mechanical Keyboard",
+      "category": "Gaming",
+      "price": 149,
+      "oldPrice": 189,
+      "discount": 21,
+      "rating": 5,
+      "image": "images/mechanical-keyboard.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Gaming Mouse",
+      "category": "Gaming",
+      "price": 59,
+      "rating": 4,
+      "image": "images/gaming-mouse.jpg"
+    },
+    {
+      "id": 17,
+      "name": "DSLR Camera",
+      "category": "Cameras",
+      "price": 799,
+      "oldPrice": 949,
+      "discount": 16,
+      "rating": 5,
+      "image": "images/dslr-camera.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Action Camera",
+      "category": "Cameras",
+      "price": 249,
+      "rating": 4,
+      "image": "images/action-camera.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Mirrorless Camera",
+      "category": "Cameras",
+      "price": 999,
+      "rating": 5,
+      "image": "images/mirrorless-camera.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Instant Camera",
+      "category": "Cameras",
+      "price": 129,
+      "rating": 4,
+      "image": "images/instant-camera.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Smart Watch",
+      "category": "Wearables",
+      "price": 249,
+      "oldPrice": 299,
+      "discount": 17,
+      "rating": 5,
+      "image": "images/smart-watch.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Sports Smart Watch",
+      "category": "Wearables",
+      "price": 179,
+      "rating": 4,
+      "image": "images/sports-smart-watch.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Rolex Watch",
+      "category": "Wearables",
+      "price": 899,
+      "oldPrice": 1099,
+      "discount": 18,
+      "rating": 5,
+      "image": "images/rolex-watch.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Premium Watch",
+      "category": "Wearables",
+      "price": 349,
+      "oldPrice": 429,
+      "discount": 19,
+      "rating": 5,
+      "image": "images/premium-watch.jpg"
+    },
+
+    {
+      "id": 25,
+      "name": "Apple iPad Mini",
+      "category": "Tablets",
+      "price": 499,
+      "oldPrice": 549,
+      "discount": 9,
+      "rating": 5,
+      "image": "images/apple-ipad-mini.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Apple iPad",
+      "category": "Tablets",
+      "price": 599,
+      "oldPrice": 649,
+      "discount": 8,
+      "rating": 5,
+      "image": "images/apple-ipad.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Samsung Galaxy Tab",
+      "category": "Tablets",
+      "price": 449,
+      "oldPrice": 499,
+      "discount": 10,
+      "rating": 4,
+      "image": "images/samsung-galaxy-tab.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Redmi Tab",
+      "category": "Tablets",
+      "price": 299,
+      "rating": 4,
+      "image": "images/redmi-tab.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Premium Chain",
+      "category": "Accessories",
+      "price": 79,
+      "oldPrice": 99,
+      "discount": 20,
+      "rating": 5,
+      "image": "images/chain.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Classic Cap",
+      "category": "Accessories",
+      "price": 39,
+      "rating": 4,
+      "image": "images/cap.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Premium Sunglasses",
+      "category": "Accessories",
+      "price": 89,
+      "oldPrice": 119,
+      "discount": 25,
+      "rating": 5,
+      "image": "images/sunglasses.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Elegant Bracelet",
+      "category": "Accessories",
+      "price": 59,
+      "oldPrice": 75,
+      "discount": 21,
+      "rating": 4,
+      "image": "images/bracelet.jpg"
+    }
+  ]
+}

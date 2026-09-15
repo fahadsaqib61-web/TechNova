@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TechStore - Product Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            TechStore
+        </div>
+
+        <nav class="nav-links">
+
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="deals.html">Deals</a>
+            <a href="orders.html">Orders</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="cart.html" class="cart-btn">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= PRODUCT DETAILS ================= -->
+
+    <main>
+
+        <section class="product-details-section">
+
+            <div class="product-details-container">
+
+                <!-- Product Image -->
+
+                <div class="product-details-image">
+
+                    <img
+                        id="productDetailsImage"
+                        alt="Product"
+                    >
+
+                </div>
+
+
+                <!-- Product Information -->
+
+                <div class="product-details-info">
+
+                    <p
+                        class="product-category"
+                        id="productDetailsCategory">
+                    </p>
+
+                    <h1 id="productDetailsName">
+                        Product Name
+                    </h1>
+
+                    <div
+                        class="rating"
+                        id="productDetailsRating">
+                    </div>
+
+
+                    <div
+                        class="product-details-price"
+                        id="productDetailsPrice">
+                    </div>
+
+
+                    <p class="product-description">
+                        Experience premium technology with
+                        high-quality performance and modern design.
+                    </p>
+
+
+                    <div class="product-quantity">
+
+                        <span>Quantity</span>
+
+                        <div class="quantity-controls">
+
+                            <button id="detailsMinus">
+                                −
+                            </button>
+
+                            <span id="detailsQuantity">
+                                1
+                            </span>
+
+                            <button id="detailsPlus">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="product-details-actions">
+
+                        <button
+                            class="add-cart"
+                            id="detailsAddCart"
+                        >
+                            🛒 Add to Cart
+                        </button>
+
+                        <button
+                            class="buy-now-btn"
+                            id="buyNowBtn"
+                        >
+                            ⚡ Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
