@@ -11439,8 +11439,8 @@ img {
     }
 
     .nav-menu {
-        width: 30px !important;
-        height: 30px !important;
+        width: 10px !important;
+        height: 10px !important;
     }
 }
 
@@ -11448,6 +11448,6 @@ img {
 
 
 .navbar {
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
+    padding-top: 0.1px !important;
+    padding-bottom: 0.1px !important;
 }
